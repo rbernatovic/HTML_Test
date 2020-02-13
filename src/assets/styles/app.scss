@@ -67,7 +67,6 @@
     &__cardblock {
         margin: 0 15%;
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
         background-color: #864f9c;
         &__card {
@@ -111,7 +110,6 @@
     &__cardblock {
         margin: 0 15%;
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
         &__card {
             display: flex;
@@ -289,6 +287,9 @@
     }
     .services__cardblock__card img {
         margin: 20px 0;
+    }
+    .services__cardblock, .meet__cardblock {
+        flex-direction: column;
     }
     .footer {
         display: flex;

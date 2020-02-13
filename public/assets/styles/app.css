@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.hero {
+  background-color: #864f9c; }
+  .hero__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+    padding-top: 50px; }
+    .hero__navbar__right a {
+      text-decoration: none;
+      color: #ffffff;
+      margin: 0 10px;
+      padding: 5px 10px; }
+    .hero__navbar__right__home {
+      background-color: #633a79; }
+  .hero__message {
+    margin: 50px 15%;
+    color: white;
+    font-size: 40px;
+    text-align: center; }
+  .hero__button {
+    text-align: center;
+    padding: 20px 40px 80px 20px; }
+    .hero__button button {
+      color: #ffffff;
+      padding: 20px 60px;
+      background-color: #eb7d4b;
+      border: none;
+      border-radius: 5px;
+      border-bottom: 3px solid #c86a40; }
+
+.services {
+  background-color: #16c2a3;
+  padding-bottom: 100px; }
+  .services__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .services__about__line {
+      width: 70px;
+      height: 4px;
+      background-color: #13a58b; }
+    .services__about__line, .services__about h1, .services__about h4 {
+      margin: 10px 0;
+      color: #ffffff; }
+    .services__about h1 {
+      margin-top: 50px; }
+    .services__about h4 {
+      margin-bottom: 100px; }
+  .services__cardblock {
+    margin: 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #864f9c; }
+    .services__cardblock__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 30px;
+      color: #ffffff; }
+      .services__cardblock__card h3 {
+        margin: 20px 0; }
+      .services__cardblock__card img {
+        margin-top: -40px; }
+
+.meet {
+  background-color: #e7f1f8;
+  padding-bottom: 10px; }
+  .meet__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .meet__about__line {
+      width: 70px;
+      height: 4px;
+      background-color: #c8d9e5; }
+    .meet__about__line, .meet__about h1, .meet__about h4 {
+      margin: 10px 0;
+      color: #535e75; }
+    .meet__about h1 {
+      margin-top: 50px; }
+    .meet__about h4 {
+      margin-bottom: 100px; }
+  .meet__cardblock {
+    margin: 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .meet__cardblock__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 30px; }
+      .meet__cardblock__card__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .meet__cardblock__card__content__name {
+          font-size: 20px; }
+        .meet__cardblock__card__content__position {
+          color: #48c1e9;
+          margin: 10px 0; }
+        .meet__cardblock__card__content__info {
+          text-align: center; }
+
+.portfolio {
+  background-color: #ffdd99;
+  padding-bottom: 80px; }
+  .portfolio__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .portfolio__about__line {
+      width: 70px;
+      height: 4px;
+      background-color: #e5c37f; }
+    .portfolio__about__line, .portfolio__about h1, .portfolio__about h4 {
+      margin: 10px 0; }
+    .portfolio__about h1 {
+      margin-top: 50px; }
+    .portfolio__about h4 {
+      margin-bottom: 40px;
+      width: 550px;
+      text-align: center;
+      font-weight: normal; }
+  .portfolio__buttons {
+    display: flex;
+    justify-content: center; }
+    .portfolio__buttons__3, .portfolio__buttons__2, .portfolio__buttons__4 {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      margin: 0 5px 20px 5px;
+      background-color: #ebcc8d; }
+    .portfolio__buttons__1 {
+      background-color: #ffffff;
+      padding: 5px 15px;
+      border: none;
+      border-radius: 5px;
+      margin: 0 5px 20px 5px; }
+  .portfolio__pcblock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .portfolio__pcblock__pc {
+      margin: 20px 30px; }
+      .portfolio__pcblock__pc img {
+        width: 450px; }
+      .portfolio__pcblock__pc p {
+        margin-top: 10px;
+        text-align: center; }
+  .portfolio__bottombutton {
+    text-align: center; }
+    .portfolio__bottombutton button {
+      background-color: #17c1a3;
+      color: #ffffff;
+      border-radius: 5px;
+      border: none;
+      padding: 20px 35px;
+      margin-top: 30px;
+      border-bottom: 3px solid #14a48b; }
+
+.intouch {
+  background-color: #3c5399;
+  padding-bottom: 80px; }
+  .intouch__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff; }
+    .intouch__about__line {
+      width: 70px;
+      height: 4px;
+      background-color: #273971; }
+    .intouch__about__line, .intouch__about h1, .intouch__about h4 {
+      margin: 10px 0; }
+    .intouch__about h1 {
+      margin-top: 50px; }
+    .intouch__about h4 {
+      margin-bottom: 40px;
+      text-align: center;
+      font-weight: normal; }
+  .intouch__form {
+    display: flex;
+    justify-content: center; }
+    .intouch__form__bottom input, .intouch__form__top input {
+      background-color: #273971;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px; }
+    .intouch__form__top input {
+      padding: 15px 150px 15px 10px;
+      margin: 10px; }
+    .intouch__form__bottom input {
+      padding: 15px 503px 120px 10px;
+      margin: 10px; }
+  .intouch__bottombutton {
+    text-align: center; }
+    .intouch__bottombutton button {
+      background-color: #2fb9e7;
+      color: #ffffff;
+      border-radius: 5px;
+      border: none;
+      padding: 20px 35px;
+      margin-top: 30px;
+      border-bottom: 3px solid #289dc5; }
+
+.footer {
+  background-color: #334b8e;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 100px; }
+  .footer p {
+    color: #ffffff;
+    font-size: 26px; }
+  .footer__2 {
+    color: #30aede; }
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .hero__navbar__right {
+    display: flex;
+    flex-direction: column; }
+  .services__cardblock__card img {
+    margin: 20px 0; }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .intouch__form__top input {
+    padding-right: 120px;
+    display: block; }
+  .intouch__form__bottom input {
+    padding-right: 120px;
+    display: block; }
+  .portfolio__about h4, .meet__about h4, .services__about h4 {
+    width: 320px; } }
+

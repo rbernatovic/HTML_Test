@@ -1,0 +1,15 @@
+import './assets/styles/app.scss';
+import './assets/images/Crayon-icon.png';
+import './assets/images/Fb.png';
+import './assets/images/Flag-icon.png';
+import './assets/images/Gears-icon.png';
+import './assets/images/LinkedIn.png';
+import './assets/images/Mail.png';
+import './assets/images/Rocket-icon.png';
+import './assets/images/Twitter.png';
+import './assets/images/Cuda.png';
+import './assets/images/profileicon.png';
+import './assets/images/1.svg';
+import './assets/images/2.svg';
+import './assets/images/3.svg';
+import './assets/images/4.svg';
